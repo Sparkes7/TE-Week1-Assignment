@@ -66,10 +66,12 @@ nav {
 }
 
 section {
+  position: relative;
   background-color: black;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-clip: border-box;
 }
 section:nth-of-type(1) {
   background-image: url(images/hero2.jpg);
@@ -236,6 +238,7 @@ audio {
   bottom: 50px;
   left: 50px;
   width: 20%;
+  opacity: 0.4;
 }
 
 .sociallinks {
