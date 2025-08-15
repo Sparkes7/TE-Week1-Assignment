@@ -1,0 +1,234 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Roboto";
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  position: fixed;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navlink {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: rgb(220, 220, 220);
+  transition: all 0.2s;
+}
+
+.navlink:hover {
+  color: white;
+  transform: translateY(-2px);
+  text-decoration: underline;
+}
+
+.contactbtn {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  border: 2px solid white;
+  border-radius: 40px;
+  transition: all 0.2s;
+}
+
+.contactbtn:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+
+.navbranding {
+  margin-left: 100px;
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.navbranding h2 {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+section {
+  background-color: black;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section:nth-of-type(1) {
+  background-image: url(images/hero2.jpg);
+}
+section:nth-of-type(2) {
+  background-image: url(images/hero1.jpg);
+}
+
+.herobox {
+  padding: 0.5rem 2rem;
+  position: absolute;
+  top: 350px;
+  left: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.herotext {
+  font-weight: 900;
+  color: white;
+  line-height: 3rem;
+  font-size: 2.5rem;
+}
+.herotext2 {
+  font-weight: 200;
+  color: white;
+  font-size: 2rem;
+}
+
+.herobtn {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid white;
+  padding: 1rem;
+  width: 60%;
+  box-shadow: 0px 0px 10px black;
+  transition: all 0.2s;
+}
+
+.herobtn:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.herobtn:active {
+  transform: translateY(5px);
+}
+
+.captionbox {
+  position: absolute;
+  right: 200px;
+  bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.section2 {
+  padding-top: 100px;
+}
+
+.section2 h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 10px black;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+.flexrow {
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.box {
+  width: 30%;
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 5px 5px 20px black;
+  transition: all 0.2s;
+}
+
+.box:hover {
+  border-color: white;
+  transform: translateY(-10px);
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(7, 7, 7);
+}
+
+iframe {
+  margin-top: 50px;
+  box-shadow: 0px 0px 20px black;
+}
+
+.backtotop {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 40px;
+  border: 2px solid white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.2s;
+}
+
+.backtotop:hover {
+  background-color: white;
+  color: black;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+.sociallinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1.25rem;
+}
+
+.fa {
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  border: 2px solid white;
+}
