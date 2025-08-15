@@ -259,3 +259,8 @@ audio {
   border-radius: 50%;
   border: 2px solid white;
 }
+
+.fa:hover {
+  color: black;
+  background-color: white;
+}
