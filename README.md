@@ -1,18 +1,18 @@
 ## Implemented:
 
-Semantic HTML elements (header, nav, section, footer etc.)
-absolute-positioned elements
-Flexbox containers in various places
-Background images with correct file paths.
-Hover states
-Transitions
-Social media icons using Font Awesome
-Embedded a video
-Smooth scrolling
-'Back To Top' button
-Custom font
-Background music with the controls.
-Javascript that sets music to 15% on page load for UX
+- Semantic HTML elements (header, nav, section, footer etc.)
+- absolute-positioned elements
+- Flexbox containers in various places
+- Background images with correct file paths.
+- Hover states
+- Transitions
+- Social media icons using Font Awesome
+- Embedded a video
+- Smooth scrolling
+- 'Back To Top' button
+- Custom font
+- Background music with the controls.
+- Javascript that sets music to 15% on page load for UX
 
 ## Reflection
 
@@ -36,9 +36,10 @@ Given that the website doesn't have any real functionality at this point, I trie
 Another part of the project which I felt could have been managed better was my stylesheet. As more elements and classes were added, the more CSS rules are then created in the stylesheet and was unsure on how to manage all of the rules - whether I should put them in the order the elements appear on the HTML page, or if there is perhaps another way. It is likely that the number of css rules is normal, however because this is the biggest page I've created, I could see how the stylesheet can become very hectic in the end.
 
 Resources used:
-https://developer.mozilla.org/en-US/docs/Web/CSS/transition
-https://developer.mozilla.org/en-US/docs/Web/CSS/translate
-https://www.w3schools.com/icons/fontawesome_icons_intro.asp
-https://www.w3schools.com/icons/fontawesome_icons_brand.asp
-https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior
-https://www.w3schools.com/jsref/prop_audio_volume.asp
+
+- https://developer.mozilla.org/en-US/docs/Web/CSS/transition
+- https://developer.mozilla.org/en-US/docs/Web/CSS/translate
+- https://www.w3schools.com/icons/fontawesome_icons_intro.asp
+- https://www.w3schools.com/icons/fontawesome_icons_brand.asp
+- https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior
+- https://www.w3schools.com/jsref/prop_audio_volume.asp
