@@ -73,12 +73,18 @@ section {
   background-size: cover;
   background-clip: border-box;
 }
-section:nth-of-type(1) {
-  background-image: url(images/hero2.jpg);
-}
+
 section:nth-of-type(2) {
   background-image: url(images/hero1.jpg);
 }
+.sectionimg {
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* section:nth-of-type(2) {
+  background-image: url(images/hero1.jpg);
+} */
 
 .herobox {
   padding: 0.5rem 2rem;
