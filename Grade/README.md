@@ -8,7 +8,7 @@ Let's examine some of your implementations!
 
 ## HTML:
 
-I’m a big fan of the way you have structured your HTML file! You’ve followed best practices like including a <header>, <main> and <footer> element and you have nested your other elements inside appropriate containers throughout! The elements you have chosen to use like <nav>, <section> and <iframe> make good semantic sense and also follow some of the best practices we are looking for!
+I’m a big fan of the way you have structured your HTML file! You’ve followed best practices like including a `<header>`, `<main>` and `<footer>` element and you have nested your other elements inside appropriate containers throughout! The elements you have chosen to use like `<nav>`, `<section>` and `<iframe>` make good semantic sense and also follow some of the best practices we are looking for!
 
 Some things to consider:
 
@@ -22,7 +22,7 @@ I really love the strong, consistent theme you've created and those small transl
 
 Some things to consider:
 
-- Fixed header overlap -> The first section (#intro) can hide under the fixed header. You can add a top offset via main { padding-top: <header-height>; } and section { scroll-margin-top: <header-height>; } to mitigate this.
+- Fixed header overlap -> The first section (#intro) can hide under the fixed header. You can add a top offset via main { padding-top: `<header-height>`; } and section { scroll-margin-top: `<header-height>`; } to mitigate this.
 
 - Section targeting -> section:nth-of-type(2) applies the background image to the About section, not the hero. If that’s unintentional, swap to a class or #intro.
 
@@ -46,12 +46,12 @@ From your reflection:
 
 -- Structure: Base/Reset → Tokens (variables) → Utilities → Layout → Components → Overrides. We haven't introduced these concepts but will make for interesting extra reading.
 
--- Naming: BEM (e.g., .card, .card\_\_title, .card--featured).
+-- Naming: BEM `(e.g., .card, .card__title, .card--featured).`
 https://getbem.com/naming/
 
 -- Practical: Group by component, keep selectors shallow, and add section comments.
 
-- Smooth scroll & fixed header: I'd be keeping html { scroll-behavior: smooth; } and add section { scroll-margin-top: <header-height>; } so anchors don’t hide under the header.
+- Smooth scroll & fixed header: I'd be keeping html { scroll-behavior: smooth; } and add section { scroll-margin-top: `<header-height>`; } so anchors don’t hide under the header.
 
 ## Deployment:
 
